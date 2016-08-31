@@ -70,6 +70,16 @@ new Vue ({
 	}
 })
 
+new Vue ({
+	el: '#transCss',
+	data: {
+		show: false
+
+	}
+
+	
+})
+
 
 
 
