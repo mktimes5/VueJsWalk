@@ -1,14 +1,36 @@
+* {
+	font-family: Ubuntu Mono;
+}
+
+
 body {
 font-family: Ubuntu Mono;
+font-size: 16px;
+margin: 0;
 }	
 
 
 section {
 	display: inline-block;
 	width: 100%;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.strip {
+	background-color: #CECBD8;
 }
 
 .mid {
 	width: 75%;
 	margin: 0 auto;
+}
+
+button {
+	border-radius: 0;
+	border: none;
+	font-size: 16px;
+	padding: 8px 15px;
+	color: #fefefe;
+	background-color: #0778BA;
 }

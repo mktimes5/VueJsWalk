@@ -22,3 +22,81 @@ new Vue ({
 		]
 	}
 })
+
+new Vue ({
+	el: '#userInput',
+	data : {
+		message: 'this is a message'
+	},
+	methods: {
+		reverseMessage: function() {
+			this.message = this.message.split('').reverse().join('')
+		}
+	}
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
