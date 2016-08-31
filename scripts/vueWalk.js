@@ -60,6 +60,16 @@ new Vue ({
 
 })
 
+new Vue ({
+	el: '#inlineCSS',
+	data: {
+		styleOject: {
+			color: 'red',
+			fontSize: '30px'
+		}
+	}
+})
+
 
 
 
