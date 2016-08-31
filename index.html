@@ -59,6 +59,25 @@
     	</div>
     </section>
 
+    <section>
+    	
+    	<div class="mid">
+    		<div id="inputToDO">
+    			<p>make some lists</p>
+    			<input v-model="newTodo" v-on:keyup.enter="addTodo">
+    			  <ul>
+				    <li v-for="todo in todos">
+				      <span>{{ todo.text }}</span>
+				      <button v-on:click="removeTodo($index)">X</button>
+				    </li>
+				  </ul>
+    		</div>
+    	</div>
+
+    	</div>
+
+    </section>
+
 
     <script src="https://npmcdn.com/vue/dist/vue.js"></script>
     <script src="scripts/vueWalk.js"></script>
@@ -66,3 +85,45 @@
   </body>
 
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
