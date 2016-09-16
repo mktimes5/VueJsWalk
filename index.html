@@ -112,7 +112,7 @@
         
         <div class="mid">
             <p> try a text filter </p>
-            <template id="text-filter">
+            <div id="text-filter">
             <input v-model="name">
                 <ul>
                     <li v-for="users in users | filterBy name in 'name'">
@@ -120,8 +120,17 @@
                     </li>
                 </ul>
             </input>
-            </template
+            </div>
         </div>
+
+    </section>
+
+    <section>
+        
+        <div class="mid">
+            <div id="mu-view">
+               <mu-comp></mu-comp>
+            </div>
 
         </div>
 

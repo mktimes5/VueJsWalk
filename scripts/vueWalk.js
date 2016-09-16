@@ -94,11 +94,14 @@ var filterVue =  new Vue({
 })
 
 
+// Component example
+Vue.component('mu-comp',{
+	template: '<button>Mu</button>'
 
-
-
-
-
+});
+var muView = new Vue({
+	el: '#mu-view'
+});
 
 
 
