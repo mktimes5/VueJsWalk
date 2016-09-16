@@ -81,9 +81,17 @@ new Vue ({
 })
 
 
-
-
-
+var filterVue =  new Vue({
+	el: '#text-filter',
+	data: {
+		name: '',
+		users: [
+		{ name:'Tom' },
+		{ name:'Harry' },
+		{ name: 'Ricky' }
+		]
+	}
+})
 
 
 
